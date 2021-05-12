@@ -1,0 +1,38 @@
+#wcat commands
+
+# cat f1.text
+# cat f1.text f2.text
+
+#f1.text
+hey i am f1
+
+
+
+bey i am f1
+
+#flags
+#-s
+ 
+output
+hey i am f1
+
+bye i am f1
+
+#-b
+output
+1.hey i am f1
+
+
+
+2.bye i am f1
+
+#-n
+output 
+1.hey i am f1
+2.
+3.
+4.
+5.bye i am f1
+
+
+-b and -n flag are exclusive so the flag which has a lower index will be considered
